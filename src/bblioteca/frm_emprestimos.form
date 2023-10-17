@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[1600, 550]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="lbl_emprestimos" alignment="1" max="32767" attributes="0"/>
+          <Group type="102" attributes="0">
+              <EmptySpace pref="31" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbl_funcionario" alignment="1" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lbl_cpf_usuario" alignment="0" min="-2" pref="74" max="-2" attributes="0"/>
+                          <Component id="lbl_id_livro" alignment="0" min="-2" pref="66" max="-2" attributes="0"/>
+                          <Component id="lbl_cpf_funcionario" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_noome_usuario" alignment="0" min="-2" pref="53" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="txt_nome_usuario" pref="464" max="32767" attributes="0"/>
+                          <Component id="txt_cpf_usuario" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txt_funcionario" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txt_cpf_funcionario" alignment="0" max="32767" attributes="0"/>
+                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                              <Component id="txt_livro_2" alignment="0" min="-2" pref="308" max="-2" attributes="0"/>
+                              <Component id="txt_livro_3" alignment="0" min="-2" pref="308" max="-2" attributes="0"/>
+                              <Component id="txt_livro" alignment="0" min="-2" pref="308" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel2" alignment="0" min="-2" pref="63" max="-2" attributes="0"/>
+                                  <Component id="lbl_senha_usuario" alignment="0" min="-2" pref="37" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace pref="69" max="-2" attributes="0"/>
+                                      <Component id="btn_inserir" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="btn_buscar_todos" min="-2" pref="111" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                      <Component id="btn_sair" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="txt_senha_usuario" min="-2" pref="474" max="-2" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <Component id="txt_data_devolvido" min="-2" pref="143" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="lbl_multa" min="-2" pref="37" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
+                                          <Component id="txt_multa" min="-2" pref="165" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="lbl_emprestimo" min="-2" pref="79" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="txt_data_emprestimo" min="-2" pref="143" max="-2" attributes="0"/>
+                                  <EmptySpace pref="52" max="32767" attributes="0"/>
+                                  <Component id="jLabel1" min="-2" pref="75" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                                  <Component id="txt_data_devolucao" min="-2" pref="165" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="lbl_id_livro3" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="lbl_id_livro_2" alignment="0" max="32767" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                                          <Component id="txt_id_livro_3" min="-2" pref="54" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="lbl_livro_3" min="-2" pref="45" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="txt_id_livro2" min="-2" pref="54" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="lbl_livro_2" min="-2" pref="45" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="txt_id_livro" min="-2" pref="54" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="lbl_livro" min="-2" pref="42" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="466" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="583" max="-2" attributes="0"/>
+                      <Component id="lbl_hora_atual" min="-2" pref="148" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="894" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="113" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Component id="lbl_emprestimos" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="351" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="lbl_hora_atual" min="-2" pref="19" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lbl_cpf_funcionario" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_cpf_funcionario" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lbl_funcionario" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_funcionario" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lbl_cpf_usuario" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_cpf_usuario" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lbl_noome_usuario" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_nome_usuario" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lbl_id_livro" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_id_livro" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_livro" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_livro" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lbl_id_livro_2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_id_livro2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_livro_2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_livro_2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txt_id_livro_3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_id_livro3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_livro_3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_livro_3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" pref="66" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txt_data_emprestimo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_emprestimo" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                          <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_data_devolucao" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt_data_devolvido" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                              <Component id="lbl_senha_usuario" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lbl_multa" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt_multa" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                              <Component id="txt_senha_usuario" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="btn_inserir" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btn_sair" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btn_buscar_todos" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="btn_sair">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sair"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_sairActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_funcionario">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Funcionario"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_funcionario">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_funcionarioActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_emprestimos">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="0"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Efetuar emprestimo"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_id_livro">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ID livro"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_id_livro">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_id_livroActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_livro">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Livro"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_livro">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_emprestimo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Emprestimo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_data_emprestimo">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Devolu&#xe7;&#xe3;o"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_data_devolucao">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Devolvido"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="tb_emprestimos">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="14" rowCount="4">
+                <Column editable="true" title="Codigo" type="java.lang.Object"/>
+                <Column editable="true" title="Funcionario" type="java.lang.Object"/>
+                <Column editable="true" title="CPF cliente" type="java.lang.Object"/>
+                <Column editable="true" title="Nome cliente" type="java.lang.Object"/>
+                <Column editable="true" title="ID livro" type="java.lang.Object"/>
+                <Column editable="true" title="Livro" type="java.lang.Object"/>
+                <Column editable="true" title="ID livro 2" type="java.lang.Object"/>
+                <Column editable="true" title="Livro 2" type="java.lang.Object"/>
+                <Column editable="true" title="ID livro 3" type="java.lang.Object"/>
+                <Column editable="true" title="Livro 3" type="java.lang.Object"/>
+                <Column editable="true" title="Data emprestimo" type="java.lang.Object"/>
+                <Column editable="true" title="Data devolu&#xe7;&#xe3;o" type="java.lang.Object"/>
+                <Column editable="true" title="Devolvido?" type="java.lang.Object"/>
+                <Column editable="true" title="Multa" type="java.lang.Object"/>
+              </Table>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="btn_inserir">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Inserir"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_inserirActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_cpf_usuario">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CPF usuario"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_cpf_usuario">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_cpf_usuarioActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_noome_usuario">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Usuario"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_nome_usuario">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_cpf_funcionario">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CPF Funcionario"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_cpf_funcionario">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_cpf_funcionarioActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_senha_usuario">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Senha"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JPasswordField" name="txt_senha_usuario">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_senha_usuarioActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_data_devolvido">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_multa">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Multa"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_multa">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_hora_atual">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_id_livro_2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ID livro 2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_id_livro2">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_id_livro2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_livro_2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Livro 2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_livro_2">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_id_livro3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ID livro 3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_id_livro_3">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_id_livro_3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_livro_3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Livro 3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_livro_3">
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="btn_buscar_todos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Buscar todos"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_buscar_todosActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
